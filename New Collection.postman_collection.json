@@ -1,0 +1,201 @@
+{
+	"info": {
+		"_postman_id": "33844a29-7de5-4d19-aa46-67c4206bec2d",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create News",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/5000/api/setpost",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"5000",
+						"api",
+						"setpost"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get News(Author)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/5000/api/getnews/:author",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"5000",
+						"api",
+						"getnews",
+						":author"
+					],
+					"variable": [
+						{
+							"key": "author",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Edit News",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/5000/api/editnews/:id",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"5000",
+						"api",
+						"editnews",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "Delete News",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/5000/api/deletenews/:id",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"5000",
+						"api",
+						"deletenews",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/5000/api/getnewses",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"5000",
+						"api",
+						"getnewses"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/5000/api/getusers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"5000",
+						"api",
+						"getusers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/5000/api/auth/reg",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"5000",
+						"api",
+						"auth",
+						"reg"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/5000/api/auth/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"5000",
+						"api",
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
